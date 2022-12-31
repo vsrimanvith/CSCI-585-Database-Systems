@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+
+<Folder>
+    <name>Eateries</name>
+
+    <Placemark>
+        <name>Parkside Dining</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.29096983397301,34.019397183231604</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Mc Kays</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28111398315038,34.01963969050971</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Taco Bell</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.29184754657533,34.022239206993085</coordinates>
+        </Point>
+    </Placemark>
+</Folder>
+
+
+<Folder>
+    <name>Waterworks</name>
+
+    <Placemark>
+        <name>Patsy F S Fountain</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.2852122751279,34.02021438996374</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Leavey Pool</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28288277325902,34.02141548130285</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Founders Fountain</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28386854740893,34.022550302325136</coordinates>
+        </Point>
+    </Placemark>
+</Folder>
+
+<Folder>
+    <name>Libraries</name>
+
+    <Placemark>
+        <name>Wilson library</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.2859943,34.02373</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Hoose library</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28662211019558,34.0186749830308</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Gaughan T library</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28257745542992,34.01875100402558</coordinates>
+        </Point>
+    </Placemark>
+</Folder>
+
+
+<Folder>
+    <name>Entrances</name>
+
+    <Placemark>
+        <name>Watt way entrance</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28537233673038,34.02410138831853</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>McCarthy Way entrance</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28110998708495,34.02048749203505</coordinates>
+             
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>McClintock Ave entrance</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28713229421383,34.02494373601582</coordinates>
+        </Point>
+    </Placemark>
+</Folder>
+
+<Placemark>
+    <name>Home</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>-118.279506,34.0280564</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>Convex Hull</name>
+    <Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+    
+    <Polygon>
+        <outerBoundaryIs>
+            <LinearRing>
+                <coordinates>
+                -118.28662211019558,34.0186749830308 -118.29096983397301,34.019397183231604 -118.29184754657533,34.022239206993085 -118.28713229421383,34.02494373601582 -118.279506,34.0280564 -118.28111398315038,34.01963969050971 -118.28257745542992,34.01875100402558 -118.28662211019558,34.0186749830308
+                </coordinates>
+                
+            </LinearRing>
+        </outerBoundaryIs>
+    </Polygon> 
+</Placemark>
+
+<Placemark>
+<name>Neighbour 1-Watt way entrance</name>
+    <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+    <LineString>
+        <coordinates>-118.279506,34.0280564 -118.28537233673038,34.02410138831853</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour 2-Founders Fountain</name>
+   <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+    <LineString>
+        <coordinates>-118.279506,34.0280564 -118.28386854740893,34.022550302325136</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour 3-McCarthy Way entrance</name>
+    <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+    <LineString>
+        <coordinates>-118.279506,34.0280564 -118.28110998708495,34.02048749203505</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+    <name>Neighbour4-Leavey Pool</name>
+    <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+    <LineString>
+        <coordinates>-118.279506,34.0280564 -118.28288277325902,34.02141548130285</coordinates>
+    </LineString>
+</Placemark>
+
+</Document>
+</kml>
+
